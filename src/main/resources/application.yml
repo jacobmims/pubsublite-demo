@@ -1,3 +1,5 @@
 micronaut:
   application:
-    name: demo
+    name: pubsubliteDemo
+gcp:
+  project-id: hak-micronaut-pubsublite
