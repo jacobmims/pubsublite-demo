@@ -7,5 +7,5 @@ import io.micronaut.gcp.pubsub.annotation.Topic;
 public interface EventClient {
 
     @Topic("event-topic")
-    void emitEvent(String uuid);
+    void publishEvent(String uuid);
 }
