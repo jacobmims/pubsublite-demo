@@ -1,7 +1,7 @@
 package com.micronaut.gcp.pubsublite.pubsub.subscribers;
 
-import io.micronaut.gcp.pubsub.annotation.LiteSubscription;
-import io.micronaut.gcp.pubsub.annotation.PubSubLiteListener;
+import io.micronaut.gcp.pubsublite.annotation.LiteSubscription;
+import io.micronaut.gcp.pubsublite.annotation.PubSubLiteListener;
 import io.micronaut.messaging.Acknowledgement;
 import lombok.extern.slf4j.Slf4j;
 

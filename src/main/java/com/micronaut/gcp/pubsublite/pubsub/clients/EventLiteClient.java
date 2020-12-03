@@ -1,7 +1,7 @@
 package com.micronaut.gcp.pubsublite.pubsub.clients;
 
-import io.micronaut.gcp.pubsub.annotation.LiteTopic;
-import io.micronaut.gcp.pubsub.annotation.PubSubLiteClient;
+import io.micronaut.gcp.pubsublite.annotation.LiteTopic;
+import io.micronaut.gcp.pubsublite.annotation.PubSubLiteClient;
 
 @PubSubLiteClient
 public interface EventLiteClient {
